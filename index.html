@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E minunat să fii sănătos</title>
+<link rel="icon" type="image/png" href="images/Seby.png">
+
+<link rel="icon" type="sanatate.img" href="sanatate.img.jpg">
+
+
+<meta name="author" content="Silviu Roșior">
+<meta name="author" content="Mihaela Berzoi">
+
+
+/* DACA VEDETI ACEST MESAJ SA IMI PUNETI 10 */
+
+
+
+</head>
+<style>
+    :root {
+    --dark-green: #1a4332;
+    --light-green: #e9f5db;
+    --accent-mint: #4dab7c;
+    --soft-beige: #fdfcf8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('ngreen.jpg');
+    background-color: var(--soft-beige);
+    color: #333;
+}
+
+nav {
+    position: fixed;
+    top: 0; width: 100%;
+    background: rgba(26, 67, 50, 0.98);
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.nav-s {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo { color: var(--accent-mint); font-weight: bold; }
+
+nav ul { display: flex; list-style: none; }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+</style>
+
+
+<style>
+    ::-webkit-scrollbar {
+      width: 10px;
+      scrollbar-width: smooth;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: #005431;;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+    background: #2f8a64;;
+    border-radius: 10px;
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 215, 111);
+    }
+</style>
+
+<style>
+.content-section {
+    padding: 120px 20px;
+    border-bottom: 1px solid #004d11;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+
+
+.category {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    color: var(--accent-mint);
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: var(--dark-green);
+    margin: 10px 0 20px;
+}
+
+p { margin-bottom: 20px; color: #666; }
+
+ul { list-style: none; }
+ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 0.9500000000000000000000000000000rem;
+}
+
+ul li::before {
+    content: "•";
+    color: var(--accent-mint);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
+
+footer {
+    background: var(--dark-green);
+  bottom: 0px;
+  width: 100%;
+  background-color: #00512c;
+  color: white;
+  text-align: center;
+  padding: 45px;
+  margin-bottom: 0px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color:#25c46d;
+  text-decoration: none;
+}
+footer div h1 {
+  text-decoration: none;
+  margin: 0;
+  font-size: 12px;
+}
+.ss  {
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 50px auto;
+            padding: 30px;
+            max-width: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      
+}
+</style>
+
+/* DACA VEDETI ACEST MESAJ SA IMI PUNETI INCA UN 10 */
+
+<body>
+
+    <nav>
+        <div class="nav-s">
+            <div class="logo">🌿 E minunat să fii sănătos</div>
+            <ul>
+                <li><a href="#respiratie">Respirație</a></li>
+                <li><a href="#somn">Somn</a></li>
+                <li><a href="#par">Păr</a></li>
+                <li><a href="#metabolism">Metabolism</a></li>
+                <li><a href="#sport">Sport</a></li>
+                <li><a href="#ten">Ten</a></li>
+                <li><a href="#postura">Postură</a></li>
+                <li><a href="#vanatai">Vânătăi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="respiratie" class="content-section">
+        <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                           
+                <span class="category">RESPIRAȚIE</span>
+                <h2>Respirația pe nas vs respirația pe gură</h2>
+                <p>Respirația este actul vital pe care îl facem de mii de ori pe zi, dar puțini știm că modul în care respirăm face o diferență enormă. Nasul este un filtru natural sofisticat.</p>
+                <ul>
+                    <li>Respirația pe nas filtrează bacteriile și particulele fine.</li>
+                    <li>Nasul produce oxid nitric, care crește absorbția oxigenului cu până la 18%.</li>
+                    <li>Respirația pe gură usucă mucoasele și favorizează cariile dentare.</li>
+                    <li>Soluții: lavaj nazal, exerciții de respirație, tratarea alergiilor.</li>
+                </ul>
+                           
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800" alt="Respiratie">
+            </div>
+        </div>
+         </div>
+    </section>
+
+    <section id="somn" class="content-section reversed">
+        <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                <span class="category">SOMN</span>
+                <h2>Pozițiile de somn și impactul lor</h2>
+                <p>Petrecem o treime din viață dormind. Poziția în care dormim influențează direct sănătatea coloanei vertebrale și calitatea odihnei.</p>
+                <ul>
+                    <li>Pe spate: poziția ideală pentru coloană, previne ridurile faciale.</li>
+                    <li>Pe partea stângă: stimulează digestia și reduce refluxul gastric.</li>
+                    <li>Pe burtă: cea mai dăunătoare – suprasolicită zona cervicală.</li>
+                    <li>Perna potrivită este la fel de importantă ca poziția de somn.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&q=80&w=800" alt="Somn">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="par" class="content-section">
+        <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                <span class="category">SEMNALE ALE CORPULUI</span>
+                <h2>Părul  oglinda sănătății tale interioare</h2>
+                <p>Părul funcționează ca un indicator al stării interne. Medicii pot detecta deficiențe nutriționale sau boli sistemice analizând firul de păr.</p>
+                <ul>
+                    <li>Păr lucios = organism bine hidratat și nutrit corespunzător.</li>
+                    <li>Căderea excesivă (peste 100 fire/zi) indică deficit de fier sau zinc.</li>
+                    <li>Stresul cronic declanșează telogen effluvium – o cădere bruscă.</li>
+                    <li>Soluție: dietă bogată în proteine, biotină și omega-3.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800" alt="Ingrijire par">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="metabolism" class="content-section reversed">
+        <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                <span class="category">METABOLISM</span>
+                <h2>A doua bărbie și rezistența la insulină</h2>
+                <p>Acumularea de grăsime în zona submandibulară este adesea asociată cu rezistența la insulină, o condiție ce precede diabetul de tip 2.</p>
+                <ul>
+                    <li>Consumul excesiv de zahăr rafinat crește nivelul de insulină.</li>
+                    <li>Simptome: oboseală după mese, poftă de dulce, dificultăți de concentrare.</li>
+                    <li>Soluție: alimentație cu indice glicemic scăzut și sport (30 min/zi).</li>
+                    <li>Postul intermitent poate inversa rezistența la insulină.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800" alt="Nutritie">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="sport" class="content-section">
+        <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                <span class="category">MIȘCARE</span>
+                <h2>Beneficiile sportului asupra corpului și minții</h2>
+                <p>Mișcarea este cel mai puternic medicament gratuit. 150 de minute de activitate pe săptămână reduc riscul de boli cardiovasculare cu 35%.</p>
+                <ul>
+                    <li>Întărește oasele și reduce osteoporoza cu vârsta.</li>
+                    <li>Eliberează endorfine și dopamină – combate depresia.</li>
+                    <li>Crește capacitatea cognitivă și memoria prin neuroplasticitate.</li>
+                    <li>30 de minute de mers pe jos au efecte măsurabile în câteva săptămâni.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800" alt="Sport">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="ten" class="content-section reversed">
+        <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                <span class="category">ÎNGRIJIREA PIELII</span>
+                <h2>Îngrijirea corectă a tenului și prevenirea coșurilor</h2>
+                <p>Acneea afectează 85% dintre tineri. Cu o rutină corectă și câteva ajustări de stil de viață, tenul poate fi îmbunătățit considerabil.</p>
+                <ul>
+                    <li>Spală fața de două ori pe zi cu un produs blând.</li>
+                    <li>Evită să atingi fața cu mâinile nespălate (transfer de bacterii).</li>
+                    <li>Schimbă fața de pernă la fiecare 2-3 zile și curăță ecranul telefonului.</li>
+                    <li>Hidratarea insuficientă face pielea să producă mai mult sebum.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=800" alt="Ten">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="postura" class="content-section">
+        <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                <span class="category">POSTURĂ</span>
+                <h2>Spatele drept  fundația unui corp sănătos</h2>
+                <p>Postura corectă protejează nervii și permite organelor interne să funcționeze optim. "Text neck" adaugă până la 12kg presiune pe coloană.</p>
+                <ul>
+                    <li>O postură corectă reduce presiunea pe discuri cu până la 50%.</li>
+                    <li>La birou: monitorul la nivelul ochilor, picioarele plate pe podea.</li>
+                    <li>Exercițiile de întărire a musculaturii core sunt esențiale.</li>
+                    <li>Stretching zilnic pentru piept și umeri pentru a contracara statul la birou.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800" alt="Yoga Postura">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="vanatai" class="content-section reversed">
+            <div class="ss">
+        <div class="container">
+            <div class="text-content">
+                <span class="category">SEMNALE DE ALARMĂ</span>
+                <h2>Vânătăile fără motiv aparent</h2>
+                <p>Dacă faci vânătăi ușor, corpul tău ar putea să-ți transmită un mesaj important despre deficiențe de vitamine sau coagulare.</p>
+                <ul>
+                    <li>Deficitul de Vitamina C slăbește pereții vasculari.</li>
+                    <li>Vitamina K este esențială pentru coagulare – lipsa ei prelungește vindecarea.</li>
+                    <li>Anumite medicamente (aspirina, ibuprofen) subțiază sângele.</li>
+                    <li>Soluție: dietă bogată în citrice, ardei roșu, broccoli și consult medical.</li>
+                </ul>
+            </div>
+            <div class="image-content">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" alt="Healthy Food">
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+<footer >
+<div class="footer">
+  <h1>Website created by <strong>Silviu Roșior</strong>
+  <br>Design by <strong>Mihaela Berzoi</strong>
+  <br>Information added by <strong>Mihaela Berzoi</strong>
+  <br>Owner by <strong>Silviu Roșior</strong></h1>
+</div>
+</footer>
+
+/* VREAU KEBAB */
+
+</body>
+</html>
